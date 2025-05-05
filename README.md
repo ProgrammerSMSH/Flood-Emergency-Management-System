@@ -20,6 +20,9 @@ Built in Python with dynamic suburb loading via JSON.
 - `suburbs.json` file with suburb data (see below for structure)
 
 ## 🛠️ Installation
+
+### Option A: Clone using Git (if Git is installed)
+
 1. Clone the repository:
     ```bash
     git clone https://github.com/ProgrammerSMSH/Flood-Emergency-Management-System.git
@@ -29,22 +32,32 @@ Built in Python with dynamic suburb loading via JSON.
     cd Flood-Emergency-Management-System
     ```
 
+### Option B: Manual Download (ZIP)
+
+1. Download ZIP from GitHub:  
+   [https://github.com/ProgrammerSMSH/Flood-Emergency-Management-System/archive/refs/heads/main.zip](https://github.com/ProgrammerSMSH/Flood-Emergency-Management-System/archive/refs/heads/main.zip)
+
+2. Extract the ZIP file.
+
+3. Open the extracted folder in terminal or command prompt.
+
 ## 🏁 Usage
-1. Run the system with:
+
+1. Run the system:
     ```bash
     python main.py
     ```
-2. On startup, you will be prompted for a login.  
-   Enter the following credentials:
+
+2. Login credentials:
    - **Username:** admin  
    - **Password:** flood2024
 
-3. After a successful login, you'll be granted access based on your role (admin or guest).
+3. After login, you will access commands based on your role.
 
 ## 💻 Commands
 
 ### 1. Take Resources
-Take resources from the available stock.
+Take resources from the available stock:
 ```bash
 take <resource_name> <quantity>
 ```
@@ -54,7 +67,7 @@ take sandbags 5
 ```
 
 ### 2. Move Direction
-Navigate between locations (north, south, east, west).
+Navigate between locations:
 ```bash
 go <direction>
 ```
@@ -64,13 +77,13 @@ go north
 ```
 
 ### 3. Check Inventory
-View the resources you have.
+See your current inventory:
 ```bash
 inventory
 ```
 
 ### 4. Drop Resources
-Drop a specified quantity of resources.
+Drop some resources:
 ```bash
 drop <resource_name> <quantity>
 ```
@@ -80,18 +93,19 @@ drop sandbags 3
 ```
 
 ### 5. Return to Headquarters
-Quickly return to the headquarters location.
+Shortcut to return:
 ```bash
 go south
 ```
 
 ### 6. Exit
-Exit the system.
+Exit the application:
 ```bash
 exit
 ```
 
 ## 📧 Contact
-- Shakib Hossain  
-- 🌐 www.shakib.me  
+
+- **Shakib Hossain**  
+- 🌐 [www.shakib.me](https://www.shakib.me)  
 - 📧 Email: contact@smshmail.com
