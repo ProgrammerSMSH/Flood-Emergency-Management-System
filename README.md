@@ -39,4 +39,3 @@ python main.py
 - Shakib Hossain
 - 🌐 www.shakib.me
 - 📧 Email: contact@smshmail.com
-```
