@@ -107,5 +107,5 @@ exit
 ## 📧 Contact
 
 - **Shakib Hossain**  
-- 🌐 [www.shakib.me](https://www.shakib.me)  
+- 🌐 [www.shakib.me](https://shakib.me)  
 - 📧 Email: contact@smshmail.com
