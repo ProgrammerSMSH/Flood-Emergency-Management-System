@@ -1,0 +1,603 @@
+[
+     {
+          "name": "Kolkata",
+          "resources": {
+               "sandbags": 1500,
+               "boats": 25,
+               "medical_kits": 200
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Salt Lake Stadium",
+                    "pet_friendly": true,
+                    "catered": true,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Beliaghata Canal Area",
+               "Hooghly Riverfront"
+          ],
+          "connections": {
+               "north": "Dhaka",
+               "east": "Sundarbans"
+          }
+     },
+     {
+          "name": "Dhaka",
+          "resources": {
+               "lifejackets": 800,
+               "water_purifiers": 50,
+               "tents": 100
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Bangabandhu Stadium",
+                    "pet_friendly": false,
+                    "catered": true,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Old Town Area",
+               "Buriganga Riverside"
+          ],
+          "connections": {
+               "south": "Kolkata",
+               "east": "Sylhet",
+               "west": "Rajshahi"
+          }
+     },
+     {
+          "name": "Sundarbans",
+          "resources": {
+               "boats": 50,
+               "gps_devices": 30,
+               "emergency_rations": 500
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Gosaba Community Center",
+                    "pet_friendly": true,
+                    "catered": false,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Delta Zone 4A",
+               "Tiger Reserve Area"
+          ],
+          "connections": {
+               "west": "Kolkata",
+               "north": "Khulna"
+          }
+     },
+     {
+          "name": "Mumbai",
+          "resources": {
+               "pumps": 40,
+               "generators": 25,
+               "sandbags": 2000
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Wankhede Stadium",
+                    "pet_friendly": false,
+                    "catered": true,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Nariman Point",
+               "Dharavi Lowlands"
+          ],
+          "connections": {
+               "north": "Nashik",
+               "east": "Pune"
+          }
+     },
+     {
+          "name": "Chittagong",
+          "resources": {
+               "lifeboats": 15,
+               "helicopters": 3,
+               "water_containers": 300
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Port Authority Complex",
+                    "pet_friendly": false,
+                    "catered": true,
+                    "overnight": false
+               }
+          ],
+          "evacuation_orders": [
+               "Karnafuli Riverside",
+               "Patenga Beach Area"
+          ],
+          "connections": {
+               "north": "Sylhet",
+               "west": "Barisal"
+          }
+     },
+     {
+          "name": "Chennai",
+          "resources": {
+               "sandbags": 1800,
+               "rescue_ropes": 200,
+               "first_aid_kits": 150
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Marina Beach Shelter",
+                    "pet_friendly": true,
+                    "catered": false,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Adyar River Zone",
+               "Ennore Port Area"
+          ],
+          "connections": {
+               "west": "Bangalore",
+               "north": "Vijayawada"
+          }
+     },
+     {
+          "name": "Khulna",
+          "resources": {
+               "water_filters": 80,
+               "mosquito_nets": 500,
+               "emergency_lights": 200
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Khulna University Campus",
+                    "pet_friendly": true,
+                    "catered": true,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Rupsha River Area",
+               "Shipyard Zone"
+          ],
+          "connections": {
+               "south": "Sundarbans",
+               "east": "Dhaka"
+          }
+     },
+     {
+          "name": "Guwahati",
+          "resources": {
+               "inflatable_rafts": 40,
+               "waterproof_tarps": 300,
+               "radios": 50
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Sarusajai Stadium",
+                    "pet_friendly": false,
+                    "catered": true,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Brahmaputra Bank",
+               "Pandu Port Area"
+          ],
+          "connections": {
+               "south": "Shillong",
+               "west": "Dibrugarh"
+          }
+     },
+     {
+          "name": "Sylhet",
+          "resources": {
+               "rescue_kits": 100,
+               "water_tankers": 10,
+               "thermal_blankets": 400
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Sylhet Agricultural University",
+                    "pet_friendly": true,
+                    "catered": false,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Surma River Basin",
+               "Tea Garden Zone"
+          ],
+          "connections": {
+               "west": "Dhaka",
+               "south": "Chittagong"
+          }
+     },
+     {
+          "name": "Hyderabad",
+          "resources": {
+               "sandbags": 2200,
+               "pumps": 35,
+               "emergency_phones": 20
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Gachibowli Stadium",
+                    "pet_friendly": false,
+                    "catered": true,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Musi River Front",
+               "Hitech City Low Areas"
+          ],
+          "connections": {
+               "east": "Vijayawada",
+               "west": "Pune"
+          }
+     },
+     {
+          "name": "Rajshahi",
+          "resources": {
+               "life_vests": 300,
+               "water_purification_tablets": 1000,
+               "tents": 80
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Rajshahi College Campus",
+                    "pet_friendly": false,
+                    "catered": true,
+                    "overnight": false
+               }
+          ],
+          "evacuation_orders": [
+               "Padma River Area",
+               "Silk Factory Zone"
+          ],
+          "connections": {
+               "east": "Dhaka",
+               "north": "Rangpur"
+          }
+     },
+     {
+          "name": "Bangalore",
+          "resources": {
+               "generators": 40,
+               "drones": 10,
+               "water_containers": 500
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Kanteerava Stadium",
+                    "pet_friendly": true,
+                    "catered": true,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Ulsoor Lake Area",
+               "Varthur Drainage Zone"
+          ],
+          "connections": {
+               "east": "Chennai",
+               "north": "Hyderabad"
+          }
+     },
+     {
+          "name": "Cox's Bazar",
+          "resources": {
+               "rescue_boats": 20,
+               "satellite_phones": 15,
+               "emergency_rations": 800
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Sea Beach Shelter",
+                    "pet_friendly": false,
+                    "catered": false,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Marine Drive Area",
+               "Fisherman's Wharf"
+          ],
+          "connections": {
+               "north": "Chittagong",
+               "west": "Barisal"
+          }
+     },
+     {
+          "name": "Patna",
+          "resources": {
+               "sandbags": 3000,
+               "rescue_tubes": 150,
+               "water_pumps": 25
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Gandhi Maidan",
+                    "pet_friendly": true,
+                    "catered": true,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Ganga Ghat Areas",
+               "Kankarbagh Low Zone"
+          ],
+          "connections": {
+               "east": "Kolkata",
+               "west": "Lucknow"
+          }
+     },
+     {
+          "name": "Barisal",
+          "resources": {
+               "fishing_boats": 30,
+               "waterproof_torches": 200,
+               "water_tanks": 15
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Bangabandhu Park",
+                    "pet_friendly": true,
+                    "catered": false,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Kirtankhola River Area",
+               "Port Road Zone"
+          ],
+          "connections": {
+               "east": "Cox's Bazar",
+               "north": "Dhaka"
+          }
+     },
+     {
+          "name": "Jaipur",
+          "resources": {
+               "sandbags": 1800,
+               "emergency_blankets": 400,
+               "water_tankers": 8
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Amber Fort Shelter",
+                    "pet_friendly": false,
+                    "catered": true,
+                    "overnight": false
+               }
+          ],
+          "evacuation_orders": [
+               "Man Sagar Lake Area",
+               "Dravyavati River Zone"
+          ],
+          "connections": {
+               "south": "Delhi",
+               "west": "Udaipur"
+          }
+     },
+     {
+          "name": "Rangpur",
+          "resources": {
+               "inflatable_dams": 10,
+               "water_quality_testers": 50,
+               "tents": 120
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Carmichael College",
+                    "pet_friendly": false,
+                    "catered": true,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Teesta River Basin",
+               "Town Protection Wall Area"
+          ],
+          "connections": {
+               "south": "Rajshahi",
+               "east": "Sylhet"
+          }
+     },
+     {
+          "name": "Lucknow",
+          "resources": {
+               "rescue_rafts": 25,
+               "water_purifiers": 30,
+               "medical_kits": 180
+          },
+          "evacuation_centers": [
+               {
+                    "address": "KD Singh Stadium",
+                    "pet_friendly": true,
+                    "catered": true,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Gomti River Front",
+               "Hazratganj Low Area"
+          ],
+          "connections": {
+               "east": "Patna",
+               "west": "Delhi"
+          }
+     },
+     {
+          "name": "Comilla",
+          "resources": {
+               "sandbags": 900,
+               "emergency_lights": 150,
+               "water_containers": 200
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Town Hall Shelter",
+                    "pet_friendly": false,
+                    "catered": false,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Gumti River Area",
+               "Cantonment Zone"
+          ],
+          "connections": {
+               "south": "Chittagong",
+               "north": "Dhaka"
+          }
+     },
+     {
+          "name": "Ahmedabad",
+          "resources": {
+               "pumps": 45,
+               "generators": 20,
+               "sandbags": 2500
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Narendra Modi Stadium",
+                    "pet_friendly": true,
+                    "catered": true,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Sabarmati Riverfront",
+               "Maninagar Low Area"
+          ],
+          "connections": {
+               "south": "Mumbai",
+               "east": "Udaipur"
+          }
+     },
+     {
+          "name": "Mymensingh",
+          "resources": {
+               "rescue_kits": 80,
+               "water_tankers": 5,
+               "life_vests": 200
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Agricultural University",
+                    "pet_friendly": true,
+                    "catered": false,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Brahmaputra Floodplain",
+               "Kewatkhali Area"
+          ],
+          "connections": {
+               "south": "Dhaka",
+               "east": "Sylhet"
+          }
+     },
+     {
+          "name": "Bhubaneswar",
+          "resources": {
+               "boats": 18,
+               "waterproof_tarps": 400,
+               "emergency_rations": 600
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Kalinga Stadium",
+                    "pet_friendly": true,
+                    "catered": true,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Day River Basin",
+               "Nandankanan Area"
+          ],
+          "connections": {
+               "north": "Kolkata",
+               "south": "Visakhapatnam"
+          }
+     },
+     {
+          "name": "Agartala",
+          "resources": {
+               "inflatable_boats": 12,
+               "satellite_phones": 8,
+               "medical_supplies": 150
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Umakanta Academy",
+                    "pet_friendly": false,
+                    "catered": true,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Haora River Banks",
+               "Border Area Zone"
+          ],
+          "connections": {
+               "west": "Dhaka",
+               "south": "Chittagong"
+          }
+     },
+     {
+          "name": "Pune",
+          "resources": {
+               "drainage_pumps": 30,
+               "sandbags": 1700,
+               "emergency_blankets": 300
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Shree Shiv Chhatrapati Complex",
+                    "pet_friendly": true,
+                    "catered": false,
+                    "overnight": true
+               }
+          ],
+          "evacuation_orders": [
+               "Mula-Mutha River Area",
+               "Hinjewadi Tech Zone"
+          ],
+          "connections": {
+               "east": "Hyderabad",
+               "west": "Mumbai"
+          }
+     },
+     {
+          "name": "Shillong",
+          "resources": {
+               "landslide_prevention_kits": 50,
+               "water_filters": 100,
+               "tents": 80
+          },
+          "evacuation_centers": [
+               {
+                    "address": "Polo Grounds",
+                    "pet_friendly": true,
+                    "catered": true,
+                    "overnight": false
+               }
+          ],
+          "evacuation_orders": [
+               "Ward's Lake Area",
+               "Umiam Catchment Zone"
+          ],
+          "connections": {
+               "north": "Guwahati",
+               "south": "Sylhet"
+          }
+     }
+]
